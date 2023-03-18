@@ -53,7 +53,6 @@ dtb-$(CONFIG_ARCH_ROCKCHIP) += \
 	rk3368-px5-evb.dtb \
 	rk3399-evb.dtb \
 	rk3399-firefly.dtb \
-	rk3399-kedge.dtb \
 	rk3399-puma-ddr1333.dtb \
 	rk3399-puma-ddr1600.dtb \
 	rk3399-puma-ddr1866.dtb \
