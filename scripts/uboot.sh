@@ -39,7 +39,7 @@ fi
 HEAD_KB=2
 BIN_KB=`ls -l u-boot.bin | awk '{ print $5 }'`
 if [ -z "${SIZE}" ]; then
-	MAX_KB=1046528
+	MAX_KB=1181152
 else
 	MAX_KB=`echo ${SIZE} | awk '{print strtonum($2)}'`
 	MAX_KB=$(((MAX_KB-HEAD_KB)*1024))
